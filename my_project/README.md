@@ -50,8 +50,8 @@ npm run dev
 5. Open your browser and navigate to the URL provided in the terminal (e.g., http://localhost:5173).
 
 ## Folder Structure
-
-<project-folder-name>/
+```bash
+<my_project>/
 ├── public/        # Static assets
 ├── src/           # Source files
 │   ├── components/   # React components
@@ -60,6 +60,8 @@ npm run dev
 │   ├── styles/       # Stylesheets
 ├── vercel.json   # Configuration for deployment on Vercel
 ├── package.json  # Dependencies and scripts
+
+```
 
 ## Mock Server
 
@@ -121,3 +123,5 @@ The project is deployed on Vercel. The deployment process includes the following
 ## License
 
 This project is open-source and available under the MIT License.
+
+![MIT License](https://img.shields.io/badge/license-MIT-green)
